@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
-      "target": "esnext",
-      "module": "esnext",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
       "allowSyntheticDefaultImports": true,
-      "noEmit": true
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "nodenext",
+      "moduleResolution": "nodenext",
+      "noEmit": true,
+      "target": "esnext"
     },
+    "include": ["*.ts", "*.mts", "*.cts"],
     "ts-node": {
       "esm": true
     }
