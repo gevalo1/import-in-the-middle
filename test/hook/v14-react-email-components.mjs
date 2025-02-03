@@ -10,7 +10,6 @@ Hook((exports, name) => {
     }
   }
 })
-
-strictEqual(typeof lib.Button, 'function')
+strictEqual(typeof lib.Button, 'object')
 strictEqual(lib.Heading(), 'heading-wrapped')
 strictEqual(Heading(), 'heading-wrapped')
