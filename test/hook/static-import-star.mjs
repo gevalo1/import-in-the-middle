@@ -1,9 +1,8 @@
 import { strictEqual } from 'assert'
 import Hook from '../../index.js'
 
-/* eslint-disable import/first */
 import {
-  /* eslint-disable import/no-named-default */
+  /* eslint-disable import-x/no-named-default */
   default as bar,
   foo,
   aFunc,

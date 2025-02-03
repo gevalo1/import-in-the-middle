@@ -135,7 +135,6 @@ function isBareSpecifierFileUrlOrRegex (input) {
   }
 
   try {
-    // eslint-disable-next-line no-new
     const url = new URL(input)
     // We consider node: URLs bare specifiers in this context
     return url.protocol === 'file:' || url.protocol === 'node:'

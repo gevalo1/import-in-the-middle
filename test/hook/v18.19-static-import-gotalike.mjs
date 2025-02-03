@@ -12,7 +12,7 @@ Hook((exports, name) => {
   }
 })
 
-/* eslint-disable import/no-named-default */
+/* eslint-disable import-x/no-named-default */
 import {
   default as Got,
   foo,
